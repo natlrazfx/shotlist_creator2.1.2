@@ -1,7 +1,8 @@
-# shotlist_creator2
+# shotlist_creator2.1.2
 This script is a powerful tool for DaVinci Resolve Studio users, specifically designed for those working on storyboards, VFX breakdowns, and notes. It allows you to export marker data and stills directly to an Excel file, helping streamline your workflow and improve communication with vendors, clients, and artists.
 
-![ShotList_Creator2_DEMO_small](https://github.com/user-attachments/assets/90b118e0-e4ef-423e-b78c-cbef5ab188c4)
+### UPDATE 2.1.2
+[![Watch the video](https://img.youtube.com/vi/f1luGUWT4PQ/maxresdefault.jpg)](https://youtu.be/f1luGUWT4PQ)
 
 ## Compatibility
 
@@ -15,8 +16,8 @@ There are two ways to use this script:
 
 **1. From the box (pre-compiled executable):**
 Unzip the downloaded folder to your preferred location. Inside the folder dist, you will find the executable file shotlist_creator2.  
-  [download win pre-compiled executable](https://drive.google.com/file/d/1eepAVmB_wWZ88IEg-DoRQeF7_Bg0VyKg/view?usp=sharing)  
-  [download mac pre-compiled executable](https://drive.google.com/file/d/1P7dFYC9Cu2k0ga3XAdWc2Rz75CFqR5xG/view?usp=drive_link)  
+  [download win pre-compiled executable](https://drive.google.com/file/d/1bj_FhSeDl47fcXVf6rjhiat9ovwBXJRo/view?usp=sharing)    
+  [download mac pre-compiled executable](https://drive.google.com/file/d/1bkdBp0rl9xUwwEEEXbDTJ2QrdGBNwaO7/view?usp=sharing)
 
 **2. Running directly from DaVinci Resolve Studio:**  
 Copy the file shotlist_creator2.py to the DaVinci Resolve Utility scripts folder:  
@@ -37,7 +38,7 @@ Make sure the following Python modules are installed:
 
 [![Watch the video](https://img.youtube.com/vi/lGYmBYw0BuA/maxresdefault.jpg)](https://youtu.be/lGYmBYw0BuA)  
 
-## Additional Tips:
+## Additional Info:
 
 1. For annotations, create a paint node in the Fusion page and add your notes there. Marker annotations and burn-in information will not be exported.
 2. The exported file is optimized for size, making it easy to convert to PDF or upload to Google Sheets.
@@ -45,21 +46,26 @@ Make sure the following Python modules are installed:
 4. On macOS, it’s recommended to launch DaVinci Resolve Studio from Contents-MacOS-Resolve for better performance.
 5. This script works only with the Studio version of DaVinci Resolve.
 
+For a Resolve script to be executed from an external folder, the script needs to know of the API location.
+You may need to set the these environment variables to allow for your Python installation to pick up the appropriate dependencies as shown below:
 
+    Mac OS X:
+    RESOLVE_SCRIPT_API="/Library/Application Support/Blackmagic Design/DaVinci Resolve/Developer/Scripting"
+    RESOLVE_SCRIPT_LIB="/Applications/DaVinci Resolve/DaVinci Resolve.app/Contents/Libraries/Fusion/fusionscript.so"
+    PYTHONPATH="$PYTHONPATH:$RESOLVE_SCRIPT_API/Modules/"
+
+    Windows:
+    RESOLVE_SCRIPT_API="%PROGRAMDATA%\Blackmagic Design\DaVinci Resolve\Support\Developer\Scripting"
+    RESOLVE_SCRIPT_LIB="C:\Program Files\Blackmagic Design\DaVinci Resolve\fusionscript.dll"
+    PYTHONPATH="%PYTHONPATH%;%RESOLVE_SCRIPT_API%\Modules\"
 
 
 ## Support and Feedback
 
 If this script saved you some time or you just love what it does, please feel free to share your thoughts and consider supporting my work as I continue my journey
 
-### 💖 GitHub Sponsors
-[Become a Sponsor](https://github.com/sponsors/natlrazfx)
-### ☕ Buy Me a Coffee
-[Buy Me a Coffee](https://www.buymeacoffee.com/natlrazfx)
-### 💸 PayPal
-[PayPal Me](https://paypal.me/natlrazfx)
-### 👾 ByBit
-119114169
+### ☕ AIRTM ME
+[Donate from anywhere](https://www.airtm.me/natalia4xk3sygi)
 
 
 ## Cheers :) 
