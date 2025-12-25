@@ -60,14 +60,12 @@ You may need to set the these environment variables to allow for your Python ins
     PYTHONPATH="%PYTHONPATH%;%RESOLVE_SCRIPT_API%\Modules\"
 
 
-## Support and Feedback
+## Don@tes
+**If any of this turns out to be useful for you - I’m glad.  
+And if you feel like supporting it:  
+☕ 1–2 coffees are more than enough ☺️**  
 
-If this script saved you some time or you just love what it does, please feel free to share your thoughts and consider supporting my work as I continue my journey
-
-### ☕ AIRTM ME
-[Donate from anywhere](https://www.airtm.me/natalia4xk3sygi)
-
-
-## Cheers :) 
+[Click to Buy me a Coffee](buymeacoffee.com/natlrazfx)
+[Subscribe me on Substack](https://substack.com/@natalia289425)
 
 *Footage is provided by Freepik.*
